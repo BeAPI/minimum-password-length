@@ -1,29 +1,25 @@
 Minimum Password Length
 =========================
-* Contributors: [itsananderson](http://profiles.wordpress.org/itsananderson),
-  [Zer0Divisor](http://profiles.wordpress.org/Zer0Divisor)
+* Contributors: [momo360modena](http://profiles.wordpress.org/momo360modena),
+  [beapi](http://profiles.wordpress.org/beapi)
 * Donate link: 
 * Tags: [security](http://wordpress.org/extend/plugins/tags/security),
   [password](http://wordpress.org/extend/plugins/tags/password),
   [administration](http://wordpress.org/extend/plugins/tags/administration)
 * Requires at least: 3.0
-* Tested up to: 4.4.2
-* Stable tag: 1.1.2
-* License: GPLv2 or later
-* License URI: http://www.gnu.org/licenses/gpl-2.0.html
+* Tested up to: 4.6.2
+* Stable tag: 1.1.0
+* License: GPLv3 or later
+* License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Enforce a specific password length. Uses the same length calculations as the WordPress password length meter
+Enforce a specific password length.
 
 Description
 -----------
 
-WordPress profile pages contain a visual indicator which shows the length of a user's chosen password. This is nice, but WordPress doesn't actually enforce this in any way, so users are free to select weak passwords.
+This plugin allow to enforce a specific password length.
 
-Minimum Password Length uses the same method to calculate a password's length, but forces users to meet a minimum length requirement before they can change their password.
-
-By default, passwords must have "Medium" length, but administrators can change this to force passwords to be at least "Weak", "Medium", or "Strong". To change the minimum length, go to Settings -> Password Length after installing Minimum Password Length.
-
-For now, all users have the same password length requirements, but a later release will allow administrators to select different length requirements for different roles.
+CAUTION: Length != Strength
 
 Installation
 ------------
@@ -34,21 +30,6 @@ Installation
 
 Changelog
 ---------
-
-#### 1.2.0 ####
-* Enforce password length during password reset
-* Update "Tested up to" tag
-
-#### 1.1.2 ####
-* Fixing the installation instructions
-* Updating the short and long descriptions
-* Updating the "Tested up to" tag
-
-#### 1.1.1 ####
-* Fixing a broken author name
-
-#### 1.1 ####
-* Adding a readme.txt file
 
 #### 1.0 ####
 * Initial release
