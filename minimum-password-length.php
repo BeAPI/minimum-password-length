@@ -3,7 +3,7 @@
 /*
  * Plugin Name: Minimum Password Length
  * Description: Enforce a specific password length.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Plugin URI: http://wordpress.org/extend/plugins/minimum-password-length/
  * Author: BE API
  * Author URI: http://beapi.fr/
