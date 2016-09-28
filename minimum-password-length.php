@@ -62,7 +62,7 @@
 	}
 
 	public static function get_password_length( $password1, $password2 ) {
-		if ( $password1 != $password2 )
+		if ( strcmp( $password1, $password2 ) )
 			return self::MISMATCH;
 
 		if ( strlen( $password1 ) < self::get_required_length() )
