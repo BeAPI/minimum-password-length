@@ -65,7 +65,7 @@
 		if ( $password1 != $password2 )
 			return self::MISMATCH;
 
-		if ( strlen( $password1 ) < self::get_required_length() )
+		if ( mb_strlen( $password1 ) < self::get_required_length() )
 			return self::SHORT_PASS;
 		
 		return self::STRONG_PASS;
