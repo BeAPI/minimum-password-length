@@ -30,6 +30,9 @@ CAUTION: Length != Strength
 
 ## Changelog ##
 
+#### 1.0.2
+* Add composer.json file
+
 #### 1.0.1
 * 28 Sep 2016
 * Fix - Use correct string comparison (thanks @BoiteAWeb)
