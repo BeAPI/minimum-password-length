@@ -1,7 +1,7 @@
 <?php
 /*
  Plugin Name: Minimum Password Length
- Version: 1.0.1
+ Version: 1.0.2
  Plugin URI: http://www.beapi.fr
  Description: Enforce a specific password length.
  Author: BE API Technical team
